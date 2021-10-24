@@ -1,0 +1,32 @@
+.barraNav
+{
+   color:chartreuse;
+   width: 1200px;
+   height: 60px;
+  /*  background-color:cornflowerblue;*/
+}
+
+
+.principal
+{
+   color: white;
+   width: 1200px;
+   height: 800px;
+   margin-right: auto;
+   padding:20px
+  /* background-color: rgb(0, 0, 100);*/
+   display:flex;
+   flex-wrap:nowrap;  
+   /* Por defecto, flex-direction esta en row */
+   flex-direction:column;
+   background-image: url(hawaii.jpg);
+}
+
+.cajaChica
+{
+   width: 600px;
+   height: 140px;
+  /* border-style: solid;
+   border-color: black;
+   background-color:lightseagreen;*/
+}
